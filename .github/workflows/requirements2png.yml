@@ -4,7 +4,9 @@
 #
 
 on:
-  - push
+  push:
+    branches:
+      - main
 
 name: Ansible Graphviz
 
