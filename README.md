@@ -34,7 +34,7 @@ The machine needs to be prepared. In CI this is done using `molecule/default/pre
   gather_facts: no
 
   roles:
-    - role: robertdebock.bootstrap
+    - role: buluma.bootstrap
 ```
 
 
