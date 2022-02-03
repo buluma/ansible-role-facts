@@ -20,23 +20,7 @@ molecule:
         tag: "latest"
       - image: "amazonlinux"
         tag: "latest"
-      - image: "debian"
-        tag: "jessie"
-      - image: "debian"
-        tag: "bookworm"
-      - image: "fedora"
-        tag: "34"
-      - image: "fedora"
-        tag: "latest"
-      - image: "fedora"
-        tag: "rawhide"
-      - image: "opensuse"
-        tag: "latest"
-      - image: "ubuntu"
-        tag: "latest"
-      - image: "ubuntu"
-        tag: "bionic"
 
 galaxy:
   script:
-    - ansible-galaxy role info ${CI_PROJECT_NAMESPACE}.${CI_PROJECT_NAME}
+    - ansible-galaxy role info ${CI_PROJECT_NAMESPACE}.facts
