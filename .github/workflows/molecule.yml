@@ -8,7 +8,7 @@ name: Ansible Molecule
 on:
   # Schedule updates (once weekly)
   schedule:
-    - cron: '11 6/1 * * 5,0'
+    - cron: '11 6/5 * * 5,0'
   workflow_dispatch:
   push:
     branches:
