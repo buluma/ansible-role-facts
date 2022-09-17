@@ -1,5 +1,9 @@
 # Changelog
 
+## [v1.0.9](https://github.com/buluma/ansible-role-facts/tree/v1.0.9) (2022-05-13)
+
+[Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v1.0.8...v1.0.9)
+
 ## [v1.0.8](https://github.com/buluma/ansible-role-facts/tree/v1.0.8) (2022-03-28)
 
 [Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v1.0.7...v1.0.8)
