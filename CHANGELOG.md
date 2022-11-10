@@ -1,5 +1,9 @@
 # Changelog
 
+## [v1.0.11](https://github.com/buluma/ansible-role-facts/tree/v1.0.11) (2022-09-17)
+
+[Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v1.0.10...v1.0.11)
+
 ## [v1.0.10](https://github.com/buluma/ansible-role-facts/tree/v1.0.10) (2022-08-21)
 
 [Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v1.0.9...v1.0.10)
@@ -30,19 +34,19 @@
 
 ## [v1.0.5](https://github.com/buluma/ansible-role-facts/tree/v1.0.5) (2022-02-12)
 
-[Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v1.0.4...v1.0.5)
+[Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v1.0.3...v1.0.5)
 
 **Merged pull requests:**
 
 - version bump/focal [\#9](https://github.com/buluma/ansible-role-facts/pull/9) ([buluma](https://github.com/buluma))
 
-## [v1.0.4](https://github.com/buluma/ansible-role-facts/tree/v1.0.4) (2022-02-10)
-
-[Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v1.0.3...v1.0.4)
-
 ## [v1.0.3](https://github.com/buluma/ansible-role-facts/tree/v1.0.3) (2022-02-10)
 
-[Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v1.0.2...v1.0.3)
+[Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v1.0.4...v1.0.3)
+
+## [v1.0.4](https://github.com/buluma/ansible-role-facts/tree/v1.0.4) (2022-02-10)
+
+[Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v1.0.2...v1.0.4)
 
 **Merged pull requests:**
 
