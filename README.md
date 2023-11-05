@@ -2,9 +2,9 @@
 
 Place custom facts for Ansible on a system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-facts/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-facts/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-facts/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-facts)|[![quality](https://img.shields.io/ansible/quality/57896)](https://galaxy.ansible.com/buluma/facts)|[![downloads](https://img.shields.io/ansible/role/d/57896)](https://galaxy.ansible.com/buluma/facts)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-facts.svg)](https://github.com/buluma/ansible-role-facts/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-facts.svg)](https://github.com/buluma/ansible-role-facts/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-facts.svg)](https://github.com/buluma/ansible-role-facts/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-facts/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-facts/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-facts/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-facts)|[![downloads](https://img.shields.io/ansible/role/d/4704)](https://galaxy.ansible.com/buluma/facts)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-facts.svg)](https://github.com/buluma/ansible-role-facts/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-facts.svg)](https://github.com/buluma/ansible-role-facts/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-facts.svg)](https://github.com/buluma/ansible-role-facts/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -104,7 +104,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |[opensuse](https://hub.docker.com/repository/docker/buluma/opensuse/general)|all|
 |[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|all|
 
-The minimum version of Ansible required is 2.10, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done to:
 
 - The previous version.
 - The current version.
