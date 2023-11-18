@@ -1,4 +1,4 @@
-# [facts](#facts)
+# [Ansible role facts](#facts)
 
 Place custom facts for Ansible on a system.
 
