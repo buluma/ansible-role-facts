@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-facts/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v1.0.11...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#20](https://github.com/buluma/ansible-role-facts/issues/20)
+- Update action [\#19](https://github.com/buluma/ansible-role-facts/issues/19)
+
 ## [v1.0.11](https://github.com/buluma/ansible-role-facts/tree/v1.0.11) (2022-09-17)
 
 [Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v1.0.10...v1.0.11)
