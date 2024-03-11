@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump release-drafter/release-drafter from 5 to 6 [\#30](https://github.com/buluma/ansible-role-facts/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#29](https://github.com/buluma/ansible-role-facts/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [v1.2.0](https://github.com/buluma/ansible-role-facts/tree/v1.2.0) (2024-01-20)
