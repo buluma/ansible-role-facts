@@ -5,7 +5,7 @@
   gather_facts: true
 
   roles:
-    - role: ansible-role-facts
+    - role: buluma.facts
       facts:
         - key: datacenter
           value: Amsterdam
