@@ -5,9 +5,9 @@
   gather_facts: true
 
   roles:
-  - role: buluma.facts
-    facts:
-    - key: datacenter
-      value: Amsterdam
-    - key: availability_zone
-      value: west
+    - role: buluma.facts
+      facts:
+        - key: datacenter
+          value: Amsterdam
+        - key: availability_zone
+          value: west
