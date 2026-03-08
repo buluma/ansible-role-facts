@@ -2,9 +2,9 @@
 
 Place custom facts for Ansible on a system.
 
-|GitHub|GitLab|Downloads|Version|
-|------|------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-facts/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-facts/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-facts/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-facts)|[![downloads](https://img.shields.io/ansible/role/d/buluma/facts)](https://galaxy.ansible.com/buluma/facts)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-facts.svg)](https://github.com/buluma/ansible-role-facts/releases/)|
+|GitHub|Issues|Pull Requests|Version|Downloads|
+|------|------|-------------|-------|---------|
+|[![github](https://github.com/buluma/ansible-role-facts/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-facts/actions/workflows/molecule.yml)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-facts.svg)](https://github.com/buluma/ansible-role-facts/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-facts.svg)](https://github.com/buluma/ansible-role-facts/pulls/)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-facts.svg)](https://github.com/buluma/ansible-role-facts/releases/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/facts)](https://galaxy.ansible.com/ui/standalone/roles/buluma/facts/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -18,12 +18,12 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
   gather_facts: true
 
   roles:
-  - role: buluma.facts
-    facts:
-    - key: datacenter
-      value: Amsterdam
-    - key: availability_zone
-      value: west
+    - role: buluma.facts
+      facts:
+        - key: datacenter
+          value: Amsterdam
+        - key: availability_zone
+          value: west
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-facts/blob/master/molecule/default/prepare.yml):
@@ -36,7 +36,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
   gather_facts: false
 
   roles:
-  - role: buluma.bootstrap
+    - role: buluma.bootstrap
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -78,30 +78,31 @@ facts: []
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | GitLab |
-|-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
+| Requirement | GitHub |
+|-------------|--------|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|
 
 ## [Context](#context)
 
 This role is part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
 
 Here is an overview of related roles:
+
 ![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-facts/png/requirements.png "Dependencies")
 
 ## [Compatibility](#compatibility)
 
-This role has been tested on these [container images](https://hub.docker.com/u/buluma):
+This role has been tested on these [container images](https://hub.docker.com/u/robertdebock):
 
 |container|tags|
 |---------|----|
-|[Alpine](https://hub.docker.com/r/buluma/alpine)|all|
-|[Amazon](https://hub.docker.com/r/buluma/amazonlinux)|all|
-|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|all|
-|[Debian](https://hub.docker.com/r/buluma/debian)|all|
-|[Fedora](https://hub.docker.com/r/buluma/fedora)|all|
-|[opensuse](https://hub.docker.com/r/buluma/opensuse)|all|
-|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|all|
+|[Alpine](https://hub.docker.com/r/robertdebock/alpine)|all|
+|[Amazon](https://hub.docker.com/r/robertdebock/amazonlinux)|all|
+|[EL](https://hub.docker.com/r/robertdebock/enterpriselinux)|all|
+|[Debian](https://hub.docker.com/r/robertdebock/debian)|all|
+|[Fedora](https://hub.docker.com/r/robertdebock/fedora)|all|
+|[opensuse](https://hub.docker.com/r/robertdebock/opensuse)|all|
+|[Ubuntu](https://hub.docker.com/r/robertdebock/ubuntu)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done on:
 
@@ -118,3 +119,4 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
