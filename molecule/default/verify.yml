@@ -8,5 +8,5 @@
     - name: Check if my_fact is set
       ansible.builtin.assert:
         that:
-          - ansible_local.custom.datacenter == "Amsterdam"
-          - ansible_local.custom.availability_zone == "west"
+          - ansible_facts.local.custom.datacenter == "Amsterdam"
+          - ansible_facts.local.custom.availability_zone == "west"

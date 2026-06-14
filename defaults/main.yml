@@ -12,7 +12,7 @@
 #
 # Would make these facts available:
 #
-#         "ansible_local": {
+#         "ansible_facts.local": {
 #             "custom": {
 #                 "availability_zone": "west",
 #                 "datacenter": "Amsterdam"
