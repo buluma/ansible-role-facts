@@ -1,5 +1,9 @@
 # Changelog
 
+## [v26.6.1](https://github.com/buluma/ansible-role-facts/tree/v26.6.1) (2026-06-14)
+
+[Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v26.6.0...v26.6.1)
+
 ## [v26.6.0](https://github.com/buluma/ansible-role-facts/tree/v26.6.0) (2026-06-14)
 
 [Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v24.3.31...v26.6.0)
@@ -67,10 +71,6 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v1.0.7...v1.0.8)
 
-**Merged pull requests:**
-
-- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#12](https://github.com/buluma/ansible-role-facts/pull/12) ([dependabot[bot]](https://github.com/apps/dependabot))
-
 ## [v1.0.7](https://github.com/buluma/ansible-role-facts/tree/v1.0.7) (2022-03-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-facts/compare/v1.0.6...v1.0.7)
@@ -109,6 +109,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#12](https://github.com/buluma/ansible-role-facts/pull/12) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Testing [\#7](https://github.com/buluma/ansible-role-facts/pull/7) ([buluma](https://github.com/buluma))
 
 ## [v1.0.1](https://github.com/buluma/ansible-role-facts/tree/v1.0.1) (2022-02-03)
