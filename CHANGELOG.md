@@ -37,7 +37,6 @@
 
 - Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#28](https://github.com/buluma/ansible-role-facts/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 3 to 4 [\#24](https://github.com/buluma/ansible-role-facts/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
-- reduce base images [\#6](https://github.com/buluma/ansible-role-facts/pull/6) ([buluma](https://github.com/buluma))
 
 ## [v1.1.0](https://github.com/buluma/ansible-role-facts/tree/v1.1.0) (2024-01-02)
 
@@ -122,6 +121,7 @@
 
 **Merged pull requests:**
 
+- reduce base images [\#6](https://github.com/buluma/ansible-role-facts/pull/6) ([buluma](https://github.com/buluma))
 - testing README tags [\#4](https://github.com/buluma/ansible-role-facts/pull/4) ([buluma](https://github.com/buluma))
 - Bump buluma/galaxy-action from 1.0.1 to 1.1.0 [\#3](https://github.com/buluma/ansible-role-facts/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.5.4 [\#2](https://github.com/buluma/ansible-role-facts/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
